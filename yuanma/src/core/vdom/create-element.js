@@ -25,7 +25,7 @@ const ALWAYS_NORMALIZE = 2
 
 // wrapper function for providing a more flexible interface
 // without getting yelled at by flow
-export function createElement (                 //创建vnode的函数
+export function createElement (                 //创建vnode的函数（也就是我们使用h=>h('APP')时候的这个函数h ）
   context: Component,
   tag: any,
   data: any,

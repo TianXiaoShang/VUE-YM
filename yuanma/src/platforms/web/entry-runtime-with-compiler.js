@@ -118,4 +118,4 @@ function getOuterHTML (el: Element): string {
 
 Vue.compile = compileToFunctions
 
-export default Vue
+export default Vue      // 入口这里导出vue对象供使用
